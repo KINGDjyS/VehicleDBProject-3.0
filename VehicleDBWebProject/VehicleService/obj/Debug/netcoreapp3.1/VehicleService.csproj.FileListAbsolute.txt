@@ -33,7 +33,6 @@ C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\bin\Debug\netcorea
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\bin\Debug\netcoreapp3.1\VehicleService.runtimeconfig.dev.json
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\bin\Debug\netcoreapp3.1\VehicleService.dll
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\bin\Debug\netcoreapp3.1\VehicleService.pdb
-C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcoreapp3.1\VehicleService.csprojAssemblyReference.cache
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcoreapp3.1\VehicleService.AssemblyInfoInputs.cache
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcoreapp3.1\VehicleService.AssemblyInfo.cs
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcoreapp3.1\VehicleService.dll

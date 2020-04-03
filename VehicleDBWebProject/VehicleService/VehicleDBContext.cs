@@ -4,15 +4,8 @@ namespace VehicleService
 {
     public class VehicleDBContext : DbContext
     {
-        private readonly IVehicleMake VehicleMake;
-        private readonly IVehicleModel VehicleModel;
-        public VehicleDBContext()
+        public VehicleDBContext(DbContextOptions<VehicleDBContext> options) : base(options)
         {
-        }
-        public VehicleDBContext(DbContextOptions<VehicleDBContext> options, IVehicleMake vehicleMake, IVehicleModel vehicleModel) : base(options)
-        {
-            VehicleMake = vehicleMake;
-            VehicleModel = vehicleModel;
         }
         public DbSet<VehicleMake> VehicleMakes { get; set; }
         public DbSet<VehicleModel> VehicleModels { get; set; }

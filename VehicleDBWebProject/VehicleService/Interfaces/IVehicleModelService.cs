@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace VehicleService
@@ -8,7 +8,7 @@ namespace VehicleService
         Task<VehicleModel> AddVehicleModelAsync(VehicleModel vehicleModel);
         Task<VehicleModel> DeleteVehicleModelAsync(int id);
         Task<VehicleModel> GetOneVehicleModelAsync(int id);
-        IQueryable<VehicleModel> GetVehicleModels(Filtering filtering, Sorting sorting, Paging paging);
+        IList<VehicleModel> GetVehicleModels(Filtering filtering, Sorting sorting, Paging paging);
         Task<VehicleModel> UpdateAsync(VehicleModel modelChanged);
         int CountModels();
 

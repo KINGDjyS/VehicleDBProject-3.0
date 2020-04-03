@@ -32,8 +32,6 @@ namespace VehicleMVC
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            builder.RegisterType<VehicleModel>().As<IVehicleModel>();
-            builder.RegisterType<VehicleMake>().As<IVehicleMake>();
             builder.RegisterType<VehicleMakeService>().As<IVehicleMakeService>();
             builder.RegisterType<VehicleModelService>().As<IVehicleModelService>();
         }

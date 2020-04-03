@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace VehicleService
@@ -8,7 +8,7 @@ namespace VehicleService
         Task<VehicleMake> AddVehicleMakerAsync(VehicleMake vehicleMake);
         Task<VehicleMake> DeleteVehicleMakerAsync(int id);
         Task<VehicleMake> GetOneVehicleMakerAsync(int id);
-        IQueryable<VehicleMake> GetVehicleMakes(Filtering filtering, Sorting sorting, Paging paging);
+        IList<VehicleMake> GetVehicleMakes(Filtering filtering, Sorting sorting, Paging paging);
         Task<VehicleMake> UpdateAsync(VehicleMake makeChanged);
         int CountMakers();
     }
