@@ -39,3 +39,4 @@ C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcorea
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcoreapp3.1\VehicleService.pdb
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcoreapp3.1\VehicleService.csproj.CoreCompileInputs.cache
 C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcoreapp3.1\VehicleService.genruntimeconfig.cache
+C:\Users\KING\source\repos\VehicleDBWebProject\VehicleService\obj\Debug\netcoreapp3.1\VehicleService.csprojAssemblyReference.cache

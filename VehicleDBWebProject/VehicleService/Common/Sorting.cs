@@ -1,4 +1,4 @@
-﻿namespace VehicleService
+﻿namespace VehicleService.Common
 {
     public class Sorting
     {

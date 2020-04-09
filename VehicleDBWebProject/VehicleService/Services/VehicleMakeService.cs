@@ -3,8 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using VehicleService.Common;
+using VehicleService.Models;
 
-namespace VehicleService
+namespace VehicleService.Services
 {
     public class VehicleMakeService : IVehicleMakeService
     {

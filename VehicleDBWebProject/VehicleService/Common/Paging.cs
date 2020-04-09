@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VehicleService
+namespace VehicleService.Common
 {
     public class Paging
     {

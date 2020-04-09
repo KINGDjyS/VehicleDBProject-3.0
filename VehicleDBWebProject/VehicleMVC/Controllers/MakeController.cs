@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using VehicleMVC.Models;
 using VehicleService;
+using VehicleService.Common;
+using VehicleService.Models;
 
 namespace VehicleMVC.Controllers
 {
